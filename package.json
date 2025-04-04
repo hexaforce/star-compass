@@ -1,0 +1,43 @@
+{
+  "name": "star-compass",
+  "version": "1.0.0",
+  "description": "star compass",
+  "main": "dist/star-compass.js",
+  "module": "dist/star-compass.js",
+  "exports": {
+    "default": "./dist/star-compass.js"
+  },
+  "files": ["dist"],
+  "scripts": {
+    "fmt": "prettier --write \"./**/*.{js,html}\"",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexaforce/star-compass.git"
+  },
+  "keywords": [
+    "star",
+    "compass"
+  ],
+  "author": "tomokazu tantaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hexaforce/star-compass/issues"
+  },
+  "homepage": "https://github.com/hexaforce/star-compass#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "rollup": "^2.79.2",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 512
+  }
+}
