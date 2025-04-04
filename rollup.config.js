@@ -6,7 +6,7 @@ export default {
     file: 'dist/star-compass.js',
     format: 'es',
     name: 'StarCompass',
-    exports: 'default'  
+    exports: 'default',
   },
   plugins: [terser()],
 }

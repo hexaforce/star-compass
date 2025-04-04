@@ -9,14 +9,14 @@
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        border: 0.25px solid black;
+        /* border: 0.25px solid black; */
       }
       img {
         position: absolute;
         opacity: 0.1;
         left: 50%;
         transform: translateX(-50%);
-        border: 0.25px solid black;
+        /* border: 0.25px solid black; */
       }
       .w100 {
         top: 10px;
@@ -45,15 +45,15 @@
     <canvas class="w400 star-compass" width="400"></canvas>
     <canvas class="w500 star-compass" width="500"></canvas>
     <canvas class="w600 star-compass" width="600"></canvas>
-    <img class="w100" src="compass.png" width="100" />
+    <!-- <img class="w100" src="compass.png" width="100" />
     <img class="w200" src="compass.png" width="200" />
     <img class="w300" src="compass.png" width="300" />
     <img class="w400" src="compass.png" width="400" />
     <img class="w500" src="compass.png" width="500" />
-    <img class="w600" src="compass.png" width="600" />
+    <img class="w600" src="compass.png" width="600" /> -->
   </body>
   <script type="module">
-    import StarCompass from './src/star-compass.js'
+    import StarCompass from './dist/star-compass.js'
     document.querySelectorAll('canvas.star-compass').forEach((canvas) => {
       new StarCompass(canvas)
     })

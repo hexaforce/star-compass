@@ -1,5 +1,5 @@
 export default class StarCompass {
-  constructor(canvas, color = 'rgba(0, 200, 200, 0.8)', indicator='rgba(200, 0, 0, 0.8)') {
+  constructor(canvas, color = 'rgba(0, 200, 200, 0.8)', indicator = 'rgba(200, 0, 0, 0.8)') {
     this.canvas = canvas
     this.ctx = this.canvas.getContext('2d', { antialias: true })
     this.radius = this.canvas.width / 2

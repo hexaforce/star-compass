@@ -1,6 +1,6 @@
 {
   "name": "star-compass",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "star compass",
   "main": "dist/star-compass.js",
   "module": "dist/star-compass.js",
